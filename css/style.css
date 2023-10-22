@@ -1740,6 +1740,12 @@ body {
     line-height: 173.7%;
 }
 
+@media screen and (max-width: 472px) {
+    .what_content_txt br {
+        display: none;
+    }
+}
+
 .what_content_use-txt1 {
     position: relative;
     line-height: 173.7%;
